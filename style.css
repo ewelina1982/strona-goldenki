@@ -1,0 +1,133 @@
+body
+{
+    background-image:  url("tlo.png");
+    margin: 0 !imoprtant;
+        
+}
+#logo{
+    width: 1000px;
+   margin-left: auto;
+    margin-right: auto;
+  
+    
+   
+    
+}
+#obrazki{
+display: flex;
+   justify-content: space-around;
+ 
+      margin-left: auto;
+    margin-right: auto;
+    
+}
+#nav{
+    text-align: center;
+    padding: 5px 0;
+    background-color: white;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    
+    
+    
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+  
+   
+    
+   
+}
+ol a
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    border-right: 1px dashed red;
+    display: inline-block;
+    text-decoration: none;
+        
+
+    
+}
+ol > li:first-child
+{
+    border-left: 1px dashed red;
+}
+ol > li:hover
+{
+    background-color: aqua;
+}
+
+ol > li:hover > a
+{
+   color: white;
+}
+.paragraf
+{
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 50px;
+    font-style: italic;
+}
+.podparagraf
+{
+    color: brown;
+    font-size: 25px;
+    font-style: oblique;
+}
+#naglowek
+{
+    text-align: center;
+    font-size: 70px;
+    color:darkgoldenrod;
+    font-style: oblique;
+    letter-spacing: 10px;
+}
+.paragraf1
+{
+    display: none;
+}
+#obraz4
+{
+    float:left;
+    padding: 10px;
+}
+.paragraf2
+{
+    text-align:justify;
+}
+#footer
+{
+   position: absolute;
+   width: 1000px;
+    word-spacing: 80px;
+    text-align: center;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding : 5px 5px 5px 5px;
+ 
+}
+p
+{
+    text-indent: 20px;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-bottom: 5px;
+}
